@@ -1,7 +1,7 @@
 $icon-font-path: '../fonts/';
 $underline-color: #EF6E7E;
 
-@import 'https://fonts.googleapis.com/css?family=Raleway';
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -41,7 +41,7 @@ a {
     color: #fff;
 
     #key-code {
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Noto Sans', sans-serif;
       font-size: 40vmin;
       font-weight: 700;
     }
