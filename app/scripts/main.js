@@ -1,5 +1,6 @@
 const kspecial = {
   32  : 'Spacebar',
+  96  : 'Numpad 0',
   97  : 'Numpad 1',
   98  : 'Numpad 2',
   99  : 'Numpad 3',
