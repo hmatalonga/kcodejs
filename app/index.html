@@ -9,7 +9,6 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-
   </head>
   <body>
     <!--[if lt IE 10]>
@@ -41,24 +40,13 @@
     </script>
 
     <script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById('deferred-styles');
-        var replacement = document.createElement('div');
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
+      var loadDeferredStyles=function(){var a=document.getElementById("deferred-styles"),b=document.createElement("div");b.innerHTML=a.textContent,document.body.appendChild(b),a.parentElement.removeChild(a)},raf=requestAnimationFrame||mozRequestAnimationFrame||webkitRequestAnimationFrame||msRequestAnimationFrame;raf?raf(function(){window.setTimeout(loadDeferredStyles,0)}):window.addEventListener("load",loadDeferredStyles);;
     </script>
 
     <noscript id="deferred-styles">
       <!-- build:css styles/main.css -->
       <link rel="stylesheet" href="styles/main.css">
       <!-- endbuild -->
-
       <!-- build:js scripts/main.js -->
       <script src="scripts/main.js"></script>
       <!-- endbuild -->
