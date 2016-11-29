@@ -170,7 +170,7 @@ gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
-gulp.task('deploy', function() {
+gulp.task('deploy', ['build'], () => {
   return gulp.src('./dist/**/*')
     .pipe(ghPages());
 });
