@@ -1,6 +1,6 @@
 # kcodejs
 
-JavaScript Keycodes on the go!
+> JavaScript Keycodes on the go!
 
 [http://hmatalonga.com/kcodejs/](http://hmatalonga.com/kcodejs/)
 
