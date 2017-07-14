@@ -2,7 +2,7 @@
 
 JavaScript Keycodes on the go!
 
-[https://hmatalonga.github.io/kcodejs/](https://hmatalonga.github.io/kcodejs/)
+[http://hmatalonga.com/kcodejs/](http://hmatalonga.com/kcodejs/)
 
 Small experimental project I have made for learning purposes. A web app that returns the JavaScript keycode on the _keydown_ event.
 
@@ -18,6 +18,4 @@ Thanks!
 
 ## License
 
-[MIT](LICENSE)
-
-Copyright (c) 2016 Hugo Matalonga
+MIT © [Hugo Matalonga](http://hmatalonga.com)
